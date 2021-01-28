@@ -1,4 +1,4 @@
-import java.util.Scanner;
+п»їimport java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class One {
@@ -9,16 +9,16 @@ public class One {
 		
 		try {
 		
-		System.out.println("Введите число: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 		double number = scanner.nextDouble();
 		scanner.nextLine();
 		
 		if (number > 7) {
-			System.out.println("Привет");
+			System.out.println("РџСЂРёРІРµС‚");
 		}}
 		catch (InputMismatchException e) {
-			System.out.println("Неверный тип вводных данных, "
-							+ "должно быть целое число.");
+			System.out.println("РќРµРІРµСЂРЅС‹Р№ С‚РёРї РІРІРѕРґРЅС‹С… РґР°РЅРЅС‹С…, "
+							+ "РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ С†РµР»РѕРµ С‡РёСЃР»Рѕ.");
 		}
 		finally {
 			scanner.close();

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+п»їimport java.util.Scanner;
 
 public class Two {
 
@@ -6,16 +6,16 @@ public class Two {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Введите имя (регистр не важен): ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РёРјСЏ (СЂРµРіРёСЃС‚СЂ РЅРµ РІР°Р¶РµРЅ): ");
 		String name = scanner.nextLine();
 		scanner.close();
 		name = name.substring(0,1).toUpperCase() + 
 			   name.substring(1).toLowerCase();
 				
-		if (!name.equals("Вячеслав")) {
-			System.out.println("Нет такого имени");
+		if (!name.equals("Р’СЏС‡РµСЃР»Р°РІ")) {
+			System.out.println("РќРµС‚ С‚Р°РєРѕРіРѕ РёРјРµРЅРё");
 		} else {
-			System.out.println("Привет, " + name);
+			System.out.println("РџСЂРёРІРµС‚, " + name);
 		}
 	}
 }
