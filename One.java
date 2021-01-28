@@ -10,7 +10,7 @@ public class One {
 		try {
 		
 		System.out.println("Введите число: ");
-		double number = scanner.nextDouble();
+		int number = scanner.nextInt();
 		scanner.nextLine();
 		
 		if (number > 7) {
