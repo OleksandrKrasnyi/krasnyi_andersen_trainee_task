@@ -8,7 +8,6 @@ public class One {
 		Scanner scanner = new Scanner(System.in);
 		
 		try {
-		
 			System.out.println("Введите число: ");
 			int number = scanner.nextInt();
 			scanner.nextLine();
