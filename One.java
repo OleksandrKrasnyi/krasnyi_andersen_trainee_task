@@ -9,13 +9,14 @@ public class One {
 		
 		try {
 		
-		System.out.println("Введите число: ");
-		int number = scanner.nextInt();
-		scanner.nextLine();
+			System.out.println("Введите число: ");
+			int number = scanner.nextInt();
+			scanner.nextLine();
 		
-		if (number > 7) {
-			System.out.println("Привет");
-		}}
+			if (number > 7) {
+				System.out.println("Привет");
+			}
+		}
 		catch (InputMismatchException e) {
 			System.out.println("Неверный тип вводных данных, "
 							+ "должно быть целое число.");
